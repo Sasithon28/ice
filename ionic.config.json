@@ -1,0 +1,7 @@
+{
+  "name": "project-imge-cru",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
