@@ -22,4 +22,8 @@ export class DataapiService {
   deleteproduct(id:number){
     return this.http.delete('http://localhost/class2-4/crudapi/delete.php?id='+id);
   }
+
+  editproduct(formdata: any){
+    return this.http.post('http://localhost/class2-4/crudapi/edit.php', formdata);
+  }
 }
